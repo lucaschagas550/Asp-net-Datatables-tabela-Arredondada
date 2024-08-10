@@ -93,7 +93,7 @@ body {
     }
 
 
-
+/*AJUSTAR ESPACAMENTO NO PADDING E MARGIN DA PAGINACAO DO DATATABLES*/
 div.dt-container .dt-paging .dt-paging-button {
     padding: 0px !important;
     margin-left: 0px !important;
