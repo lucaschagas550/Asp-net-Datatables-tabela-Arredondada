@@ -1,0 +1,100 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+.tabela {
+    font-weight: 400 !important;
+    table-layout: fixed !important;
+    font-size: 14px !important;
+    width: 100% !important;
+    color: #000 !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    background-color: white !important;
+}
+
+    .tabela th {
+        border: 1px solid #034ea2 !important;
+        background-color: #034ea2 !important;
+        height: 40px !important;
+        color: #fff !important;
+        text-align: center !important;
+    }
+
+    /*.tabela tbody tr:hover {
+        background-color: #DDD !important;
+        cursor: pointer !important;*/ /* Opcional, para indicar interatividade */
+    /*}*/
+
+
+    .tabela thead tr:first-child th:first-child {
+        border-top-left-radius: 5px !important;
+        border-left: solid 1px #034ea2 !important;
+    }
+
+    .tabela thead tr:first-child th:last-child {
+        border-top-right-radius: 5px !important;
+        border-right: solid 1px #034ea2 !important;
+    }
+
+    .tabela thead tr:first-child th:first-child {
+        border-bottom-left-radius: 5px !important;
+        border-top-left-radius: 5px !important;
+    }
+
+    .tabela thead tr:first-child th:last-child {
+        border-bottom-right-radius: 5px !important;
+    }
+
+    .tabela tr td:first-child {
+        border-top-left-radius: 5px !important;
+        border-left: solid 1px #DDD !important;
+    }
+
+    .tabela tr td:last-child {
+        border-top-right-radius: 5px !important;
+        border-right: solid 1px #DDD !important;
+    }
+
+    .tabela tr td:first-child {
+        border-bottom-left-radius: 5px !important;
+    }
+
+    .tabela tr td:last-child {
+        border-bottom-right-radius: 5px !important;
+    }
+
+    .tabela td {
+        text-align: center !important;
+        padding: 10px !important;
+        border-bottom: solid 1px #DDD !important;
+        border-top: solid 1px #DDD !important;
+        overflow: hidden !important;
+    }
+
+
+
+div.dt-container .dt-paging .dt-paging-button {
+    padding: 0px !important;
+    margin-left: 0px !important;
+}
